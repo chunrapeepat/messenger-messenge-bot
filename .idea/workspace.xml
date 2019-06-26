@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2db04d81-692e-451b-a077-686631d37484" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Browser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/utils/Utils.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/configHelper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/utils/helper.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/utils/helper.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/configHelper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ConfigHelper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/utils/helper.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/utils/ConfigHelper.test.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="396">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -31,15 +34,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domains/IConfig.ts">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Browser.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/configHelper.ts">
+        <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.es5.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
+            <state relative-caret-position="183">
+              <caret line="1313" column="4" selection-start-line="1313" selection-start-column="4" selection-end-line="1313" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/Utils.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/utils/Utils.test.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/ConfigHelper.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
               <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -49,7 +86,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/utils/helper.test.ts">
+        <entry file="file://$PROJECT_DIR$/test/utils/ConfigHelper.test.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
@@ -87,15 +124,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -119,6 +147,9 @@
         <option value="$PROJECT_DIR$/test/utils/helper.test.ts" />
         <option value="$PROJECT_DIR$/src/utils/configHelper.ts" />
         <option value="$PROJECT_DIR$/src/app.ts" />
+        <option value="$PROJECT_DIR$/test/utils/Utils.test.ts" />
+        <option value="$PROJECT_DIR$/src/utils/Utils.ts" />
+        <option value="$PROJECT_DIR$/src/Browser.ts" />
       </list>
     </option>
   </component>
@@ -157,12 +188,24 @@
               <item name="messenger-message-bot" type="b2602c69:ProjectViewProjectNode" />
               <item name="messenger-message-bot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="domains" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="messenger-message-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messenger-message-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="messenger-message-bot" type="b2602c69:ProjectViewProjectNode" />
               <item name="messenger-message-bot" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="messenger-message-bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messenger-message-bot" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.ConfigHelper.loadConfig">
+  <component name="RunManager" selected="Jest.Utils.extractID">
     <configuration name="ConfigHelper.loadConfig" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -223,32 +266,32 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Helper.loadConfig.should be load json file into object correctly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Utils.extractID" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/utils/helper.test.ts" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/test/utils/Utils.test.ts" />
       <test-names>
-        <test-name value="Helper.loadConfig" />
-        <test-name value="should be load json file into object correctly" />
+        <test-name value="Utils.extractID" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="loadConfig should be load json file into object correctly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/utils/helper.test.ts" />
-      <test-names>
-        <test-name value="loadConfig should be load json file into object correctly" />
-      </test-names>
-      <method v="2" />
+    <configuration name="Browser.ts" type="TypeScriptProgramRunner" factoryName="TypeScript" temporary="true">
+      <module name="messenger-message-bot" />
+      <option name="interpreterRef" value="project" />
+      <option name="interpreterOptions" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src" />
+      <option name="tsconfigFile" value="" />
+      <option name="extraTypeScriptOptions" value="" />
+      <option name="scriptName" value="$PROJECT_DIR$/src/Browser.ts" />
+      <option name="programParameters" value="" />
+      <option name="tsnodePackage" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="configHelper.ts" type="TypeScriptProgramRunner" factoryName="TypeScript" temporary="true">
       <module name="messenger-message-bot" />
@@ -266,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Utils.extractID" />
+        <item itemvalue="TypeScript.Browser.ts" />
         <item itemvalue="Jest.ConfigHelper.loadConfig" />
         <item itemvalue="Jest.ConfigHelper.loadConfig.should be load json file into object correctly" />
         <item itemvalue="TypeScript.configHelper.ts" />
-        <item itemvalue="Jest.Helper.loadConfig.should be load json file into object correctly" />
-        <item itemvalue="Jest.loadConfig should be load json file into object correctly" />
       </list>
     </recent_temporary>
   </component>
@@ -285,44 +328,44 @@
       <option name="presentableId" value="Default" />
       <updated>1561527682824</updated>
       <workItem from="1561527689104" duration="53000" />
-      <workItem from="1561527787374" duration="7847000" />
+      <workItem from="1561527787374" duration="10733000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Helper_loadConfig_should_be_load_json_file_into_object_correctly - 2019.06.26 at 15h 45m 50s.xml">
-      <configuration name="Helper.loadConfig.should be load json file into object correctly" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Utils_extractID - 2019.06.26 at 16h 41m 47s.xml">
+      <configuration name="Utils.extractID" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Helper_loadConfig_should_be_load_json_file_into_object_correctly - 2019.06.26 at 15h 45m 59s.xml">
-      <configuration name="Helper.loadConfig.should be load json file into object correctly" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Utils_extractID - 2019.06.26 at 16h 45m 13s.xml">
+      <configuration name="Utils.extractID" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Helper_loadConfig_should_be_load_json_file_into_object_correctly - 2019.06.26 at 15h 46m 32s.xml">
-      <configuration name="Helper.loadConfig.should be load json file into object correctly" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Utils_extractID - 2019.06.26 at 16h 46m 17s.xml">
+      <configuration name="Utils.extractID" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Helper_loadConfig_should_be_load_json_file_into_object_correctly - 2019.06.26 at 15h 46m 38s.xml">
-      <configuration name="Helper.loadConfig.should be load json file into object correctly" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Utils_extractID - 2019.06.26 at 16h 46m 38s.xml">
+      <configuration name="Utils.extractID" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Helper_loadConfig_should_be_load_json_file_into_object_correctly - 2019.06.26 at 15h 52m 37s.xml">
-      <configuration name="Helper.loadConfig.should be load json file into object correctly" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Utils_extractID - 2019.06.26 at 16h 48m 12s.xml">
+      <configuration name="Utils.extractID" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Helper_loadConfig_should_be_load_json_file_into_object_correctly - 2019.06.26 at 15h 54m 10s.xml">
-      <configuration name="Helper.loadConfig.should be load json file into object correctly" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Utils_extractID - 2019.06.26 at 16h 49m 57s.xml">
+      <configuration name="Utils.extractID" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="ConfigHelper_loadConfig_should_be_load_json_file_into_object_correctly - 2019.06.26 at 16h 00m 39s.xml">
-      <configuration name="ConfigHelper.loadConfig.should be load json file into object correctly" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Utils_extractID - 2019.06.26 at 16h 50m 28s.xml">
+      <configuration name="Utils.extractID" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="ConfigHelper_loadConfig_should_be_load_json_file_into_object_correctly - 2019.06.26 at 16h 01m 03s.xml">
-      <configuration name="ConfigHelper.loadConfig.should be load json file into object correctly" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Utils_extractID - 2019.06.26 at 16h 52m 40s.xml">
+      <configuration name="Utils.extractID" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="ConfigHelper_loadConfig_should_be_load_json_file_into_object_correctly - 2019.06.26 at 16h 01m 51s.xml">
-      <configuration name="ConfigHelper.loadConfig.should be load json file into object correctly" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Utils_extractID - 2019.06.26 at 16h 53m 00s.xml">
+      <configuration name="Utils.extractID" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="ConfigHelper_loadConfig - 2019.06.26 at 16h 02m 00s.xml">
-      <configuration name="ConfigHelper.loadConfig" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Utils_extractID - 2019.06.26 at 16h 53m 09s.xml">
+      <configuration name="Utils.extractID" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7900000" />
+    <option name="totallyTimeSpent" value="10786000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,7 +473,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/utils/helper.test.ts">
+    <entry file="file://$PROJECT_DIR$/test/utils/ConfigHelper.test.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
@@ -440,9 +483,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/configHelper.ts">
+    <entry file="file://$PROJECT_DIR$/src/domains/IConfig.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/ConfigHelper.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
+        <state relative-caret-position="57">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -450,15 +496,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domains/IConfig.ts">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/test/utils/Utils.test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="396">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="1313" column="4" selection-start-line="1313" selection-start-column="4" selection-end-line="1313" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Utils.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Browser.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

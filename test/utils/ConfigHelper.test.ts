@@ -2,7 +2,7 @@ jest.mock("fs");
 import fs from "fs";
 
 import IConfig from "../../src/domains/IConfig";
-import ConfigHelper from "../../src/utils/configHelper";
+import ConfigHelper from "../../src/utils/ConfigHelper";
 
 const jsonConfig: string = `
     {

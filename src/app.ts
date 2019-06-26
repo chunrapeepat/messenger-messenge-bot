@@ -1,7 +1,8 @@
 import * as path from "path";
+import Browser from "./Browser";
 
 import IConfig from "./domains/IConfig";
-import ConfigHelper from "./utils/configHelper";
+import ConfigHelper from "./utils/ConfigHelper";
 
 const configHelper: ConfigHelper = new ConfigHelper(path.join(__dirname, ".."));
 
@@ -11,4 +12,5 @@ if (configHelper.isConfigExist("production.json")) {
     config = configHelper.loadConfig("production.json");
 }
 
-console.log(config);
+// Extract ID from url and apply to Puppeteer
+new Browser(config).run();
