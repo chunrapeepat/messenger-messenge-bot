@@ -56,11 +56,16 @@ class Browser {
             waitUntil: "networkidle2",
         });
 
-        await page.keyboard.type(this.message);
-        await sleep(100);
-        page.keyboard.press(String.fromCharCode(13));;
+        const element = await page.$("._3oh-");
+        const fullName: string = await page.evaluate(elem => {
+            return elem.textContent;
+        }, element);
 
-        console.log(`[Log] Send message to ${ids[index]}`);
+        await page.keyboard.type(this.message.replace("{NAME}", fullName));
+        await sleep(100);
+        page.keyboard.press(String.fromCharCode(13));
+
+        console.log(`[Log] Send message to ${fullName} <${ids[index]}>`);
 
         await sleep(500);
         await this.sendMessage(ids, index + 1, page);
