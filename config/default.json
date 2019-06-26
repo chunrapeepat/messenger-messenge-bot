@@ -1,5 +1,5 @@
 {
-  "message": "this is example message.",
+  "message": "Hi! {NAME}, this is example message.",
   "urls": [
     "https://facebook.com/chun42",
     "https://facebook.com/fluke.ramin"
