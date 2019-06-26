@@ -1,0 +1,20 @@
+{
+  "name": "messenger-message-bot",
+  "version": "1.0.0",
+  "description": "A Bot that send a custom message through a messenger",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chun Rapeepat",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.10",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2"
+  }
+}
