@@ -1,8 +1,14 @@
+import * as path from "path";
+
 import IConfig from "./domains/IConfig";
-import Helper from "./utils/helper";
+import ConfigHelper from "./utils/configHelper";
 
-let config: IConfig = Helper.loadConfig("default.json");
+const configHelper: ConfigHelper = new ConfigHelper(path.join(__dirname, ".."));
 
-if (Helper.isConfigExist("production.json")) {
-    config = Helper.loadConfig("production.json");
+let config: IConfig = configHelper.loadConfig("default.json");
+
+if (configHelper.isConfigExist("production.json")) {
+    config = configHelper.loadConfig("production.json");
 }
+
+console.log(config);

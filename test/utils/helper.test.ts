@@ -2,7 +2,7 @@ jest.mock("fs");
 import fs from "fs";
 
 import IConfig from "../../src/domains/IConfig";
-import Helper from "../../src/utils/helper";
+import ConfigHelper from "../../src/utils/configHelper";
 
 const jsonConfig: string = `
     {
@@ -13,11 +13,13 @@ const jsonConfig: string = `
     }
 `;
 
-describe("Helper.loadConfig", () => {
+describe("ConfigHelper.loadConfig", () => {
+    const helper: ConfigHelper = new ConfigHelper();
+
     test("should be load json file into object correctly", () => {
         (fs.readFileSync as jest.Mock).mockReturnValue(new Buffer(jsonConfig));
 
-        const config: IConfig = Helper.loadConfig("filename.json");
+        const config: IConfig = helper.loadConfig("filename.json");
 
         expect(fs.readFileSync).toHaveBeenCalled();
 
