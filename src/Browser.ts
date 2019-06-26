@@ -21,6 +21,10 @@ class Browser {
     }
 
     public async run() {
+        if (!process.env.EMAIL || !process.env.PASSWORD) {
+            return console.log("[Error] Please specify Facebook username and password");
+        }
+
         const ids: string[] = this.urls.map(Utils.extractID);
 
         const browser = await puppeteer.launch({headless: false});
